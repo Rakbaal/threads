@@ -2,10 +2,7 @@ import Express from "express";
 import morgan from "morgan";
 import database from "./database";
 
-import auth from "../controllers/auth.controller";
-import users from "../controllers/users.controller";
 import threads from "../controllers/threads.controller";
-import posts from "../controllers/posts.controller";
 
 
 import User from "../models/user.model";
