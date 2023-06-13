@@ -1,5 +1,4 @@
 import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from "typeorm";
-import User from "./user.model";
 
 @Entity()
 export default class Post extends BaseEntity {
